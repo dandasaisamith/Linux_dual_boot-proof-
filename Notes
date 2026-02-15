@@ -1,0 +1,65 @@
+My Personal Learning Notes
+
+Name: Danda Sai Samith
+
+>> What I Learned About Dual Boot
+
+When I installed Linux, I learned that dual boot means running two operating systems on the same computer. In my case, I installed Ubuntu along with Windows. When the computer starts, the GRUB bootloader appears and allows me to choose whether I want to start Windows or Ubuntu.
+
+How I Installed It (My Experience)
+
+First, I backed up my important files in Windows to avoid losing data. Then I opened Disk Management in Windows and shrank the main partition to create free space for Linux. After that, I downloaded the Ubuntu ISO file from the official website and created a bootable USB using Rufus.
+
+Next, I restarted my computer and booted from the USB drive. During the installation process, I selected the option “Install Ubuntu alongside Windows.” The installer automatically created the required partitions and configured GRUB. After installation was complete, I restarted the system and saw the GRUB menu showing both Windows and Ubuntu. That confirmed my dual boot setup was successful.
+
+Key Observations
+
+Managing disk partitions carefully is very important.
+
+Taking a backup before installation is necessary.
+
+The Ubuntu installer automatically sets up GRUB.
+
+Secure Boot sometimes needs to be disabled in BIOS.
+
+>> What I Learned About Linux Commands
+
+Linux mainly works through the terminal, and I realized it is very powerful. Commands are case-sensitive, so typing must be accurate.
+
+Some basic commands I practiced:
+
+pwd → shows my current working directory.
+
+ls → lists files and folders.
+
+ls -l → shows detailed file information and permissions.
+
+cd → changes directory.
+
+mkdir → creates a new folder.
+
+>> Challenges I Faced
+
+During installation, I was initially confused about disk partitions and was worried about deleting Windows accidentally. I also had to disable Secure Boot from BIOS settings to make the installation work properly. After installation, I needed an internet connection to update packages and install additional software.
+
+Some commands were difficult to remember at first, but after practicing multiple times, I became more comfortable using them.
+
+>> Conclusion
+
+This practical exercise helped me understand:
+
+The complete Linux installation process
+
+How dual boot works with GRUB
+
+Basic terminal navigation
+
+File and directory management
+
+Understanding file permissions
+
+Now I feel confident using basic Linux commands in the terminal and working in a dual boot environment.
+
+touch → creates a file.
+
+sudo → runs commands with administrative privileges.
